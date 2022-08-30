@@ -3,22 +3,22 @@ entries:
   nginxdemo:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2022-08-30T12:15:09.502222+05:30"
+    created: "2022-08-30T12:20:22.115391+05:30"
     description: A Helm chart for nginx
     digest: f68dca5530650f792d0ef1ac1c86f278e7eed096fa55a6f4c6527204cdfdc5b3
     name: nginxdemo
     urls:
-    - https://lerndevops.github.io/helm-charts/nginxdemo-0.1.0.tgz
+    - https://lerndevops.github.io/helm-charts/sources/nginxdemo-0.1.0.tgz
     version: 0.1.0
   test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-08-30T12:15:09.502831+05:30"
+    created: "2022-08-30T12:20:22.115812+05:30"
     description: A Helm chart for Kubernetes
     digest: 1d6d56e91ce0e736916c140272daefc61f459974a9b13173a973074264af8df4
     name: test
     type: application
     urls:
-    - https://lerndevops.github.io/helm-charts/test-0.1.0.tgz
+    - https://lerndevops.github.io/helm-charts/sources/test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-30T12:15:09.501916+05:30"
+generated: "2022-08-30T12:20:22.115067+05:30"
