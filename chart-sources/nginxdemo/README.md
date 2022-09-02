@@ -23,5 +23,5 @@ $ helm uninstall [RELEASE_NAME]
 
 ```console
 # Helm 3
-$ helm upgrade [RELEASE_NAME] jenkins/jenkins [flags]
+$ helm upgrade [RELEASE_NAME] lerndevops/nginxdemo
 ```
