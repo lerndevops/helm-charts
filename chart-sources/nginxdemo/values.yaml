@@ -7,6 +7,6 @@ ports:
   serviceport: 80
 
 deploymentlabels:
-  app: frontend
+  app: nginx
 
 servicetype: NodePort
