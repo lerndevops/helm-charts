@@ -28,15 +28,6 @@ ex: helm install springbootapp lerndevops/springbootapp
 Note: RELEASE_NAME can be any value 
 ```
 
-## Uninstall Chart
-
-```console
-
-$ helm uninstall [RELEASE_NAME]
-
-ex: helm uninstall springbootapp
-```
-
 ## Upgrade Chart
 
 ```console
@@ -44,6 +35,15 @@ ex: helm uninstall springbootapp
 $ helm upgrade [RELEASE_NAME] lerndevops/springbootapp
 
 ex: helm upgrade springbootapp lerndevops/springbootapp
+```
+
+## Uninstall Chart
+
+```console
+
+$ helm uninstall [RELEASE_NAME]
+
+ex: helm uninstall springbootapp
 ```
 
 ## Download Chart to local 

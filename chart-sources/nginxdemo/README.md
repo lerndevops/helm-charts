@@ -28,15 +28,6 @@ ex: helm install nginxdemo lerndevops/nginxdemo
 Note: RELEASE_NAME can be any value 
 ```
 
-## Uninstall Chart
-
-```console
-
-$ helm uninstall [RELEASE_NAME]
-
-ex: helm uninstall nginxdemo
-```
-
 ## Upgrade Chart
 
 ```console
@@ -44,6 +35,15 @@ ex: helm uninstall nginxdemo
 $ helm upgrade [RELEASE_NAME] lerndevops/nginxdemo
 
 ex: helm upgrade nginxdemo lerndevops/nginxdemo
+```
+
+## Uninstall Chart
+
+```console
+
+$ helm uninstall [RELEASE_NAME]
+
+ex: helm uninstall nginxdemo
 ```
 
 ## Download Chart to local 
