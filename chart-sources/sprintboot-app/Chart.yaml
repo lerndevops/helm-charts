@@ -1,0 +1,8 @@
+apiVersion: v2
+version: "1.0"
+name: sprintbootapp
+description: A Helm chart for Spring application
+dependencies:
+  - name: mongodb
+    version: "1.0"
+    #repository: 

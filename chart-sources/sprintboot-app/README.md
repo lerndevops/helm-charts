@@ -9,7 +9,7 @@ helm repo update
 
 ```console
 # Helm 3
-$ helm install [RELEASE_NAME] lerndevops/test
+$ helm install [RELEASE_NAME] lerndevops/nginxdemo
 ```
 
 ## Uninstall Chart
@@ -23,5 +23,5 @@ $ helm uninstall [RELEASE_NAME]
 
 ```console
 # Helm 3
-$ helm upgrade [RELEASE_NAME] lerndevops/test
+$ helm upgrade [RELEASE_NAME] lerndevops/nginxdemo
 ```
