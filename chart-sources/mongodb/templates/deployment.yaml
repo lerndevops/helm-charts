@@ -6,11 +6,11 @@ spec:
   replicas: {{ .Values.replicas }}
   selector:
     matchLabels:
-      app: mongodb
+      app: mdb
   template:
     metadata:
       labels:
-        app: mongodb
+        app: mdb
     spec:
       volumes:
        - name: pv
