@@ -61,6 +61,6 @@ helm search repo lerndevops/nginxdemo --versions
 
 ## install specific version of chart from repo 
 ```console
-helm install springboot-v1 lerndevops/nginxdemo --version 0.1
-helm install springboot-v2 lerndevops/nginxdemo --version 0.2
+helm install nginxdemo-v1 lerndevops/nginxdemo --version 0.1
+helm install nginxdemo-v2 lerndevops/nginxdemo --version 0.2
 ```  
