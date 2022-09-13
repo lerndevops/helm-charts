@@ -9,7 +9,7 @@ helm repo update
 
 ```console
 # Helm 3
-$ helm install [RELEASE_NAME] lerndevops/springboot-app
+$ helm install [RELEASE_NAME] lerndevops/mongodb
 ```
 
 ## Uninstall Chart
@@ -23,5 +23,6 @@ $ helm uninstall [RELEASE_NAME]
 
 ```console
 # Helm 3
-$ helm upgrade [RELEASE_NAME] lerndevops/springboot-app
+$ helm upgrade [RELEASE_NAME] lerndevops/mongodb
 ```
+
