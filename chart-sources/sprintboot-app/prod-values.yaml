@@ -1,5 +1,5 @@
 image: lerndevops/samples:springboot-app
-
+Name: springboot-app
 replicas: 4
 
 ports:
