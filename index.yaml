@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   mongodb:
   - apiVersion: v2
-    created: "2022-09-13T10:10:30.491441+05:30"
+    created: "2022-09-13T10:19:36.041051+05:30"
     description: A Helm Chart for Mongo DB
     digest: 7fd4e6a67f5c03020688c8d78c3e65150e9cabeeee313554110d611ebc50caf8
     name: mongodb
@@ -11,15 +11,15 @@ entries:
     version: "1.0"
   nginxdemo:
   - apiVersion: v2
-    created: "2022-09-13T10:10:30.49197+05:30"
+    created: "2022-09-13T10:19:36.041366+05:30"
     description: A Helm chart for nginx
-    digest: e22366470f3e54443dcff476f94fd3007d0e316d60f6b49b913cd14ef45af14f
+    digest: 822fc2a72b50c0c20492cdee3552cf99cdf3b75dafecef5f4079fa5546238e82
     name: nginxdemo
     urls:
     - https://lerndevops.github.io/helm-charts/packages/nginxdemo-0.2.tgz
     version: "0.2"
   - apiVersion: v2
-    created: "2022-09-13T10:10:30.491645+05:30"
+    created: "2022-09-13T10:19:36.041186+05:30"
     description: A Helm chart for nginx
     digest: fd6d50c911d2d96dfb87ae6d0967057744301adfb24fa1313f961f01672aec75
     name: nginxdemo
@@ -28,7 +28,7 @@ entries:
     version: "0.1"
   springbootapp:
   - apiVersion: v2
-    created: "2022-09-13T10:10:30.492271+05:30"
+    created: "2022-09-13T10:19:36.043619+05:30"
     dependencies:
     - name: mongodb
       repository: ""
@@ -41,11 +41,11 @@ entries:
     version: "1.0"
   testapp:
   - apiVersion: v2
-    created: "2022-09-13T10:10:30.49241+05:30"
+    created: "2022-09-13T10:19:36.043865+05:30"
     description: a simple Helm Chart to run test application
     digest: 5e7e9177b4427b4fb76c8e8c5375b3b0d3ef8c37bbb262a4dee9cbccec2eb4dd
     name: testapp
     urls:
     - https://lerndevops.github.io/helm-charts/packages/testapp-0.1.tgz
     version: "0.1"
-generated: "2022-09-13T10:10:30.49089+05:30"
+generated: "2022-09-13T10:19:36.04063+05:30"
