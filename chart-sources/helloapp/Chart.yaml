@@ -1,0 +1,8 @@
+apiVersion: v2 
+name: helloapp
+version: "1.2"
+description: A Helm Chart for testap
+dependencies:
+  - name: mongodb
+    version: "1.0"
+    #repo:

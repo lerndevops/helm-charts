@@ -1,0 +1,12 @@
+name: pyapp
+image: 
+  name: docker.io/lerndevops/samples
+  tag: pyapp-v1  
+
+replicas: 2
+
+ports:
+  serviceport: 80
+  containerport: 3000
+
+servicetype: NodePort

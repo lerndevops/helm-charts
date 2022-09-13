@@ -1,0 +1,12 @@
+name: pyapp
+image: 
+  name: docker.io/lerndevops/samples
+  tag: pyapp-v2  
+
+replicas: 6
+
+ports:
+  serviceport: 80
+  containerport: 3000
+
+servicetype: LoadBalancer 

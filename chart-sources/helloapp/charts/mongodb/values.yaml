@@ -1,0 +1,3 @@
+image: lerndevops/samples:mongodb
+name: springapp
+replicas: 1

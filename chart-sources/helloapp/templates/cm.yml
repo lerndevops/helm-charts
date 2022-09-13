@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ .Values.name }}-cm
+data:
+  app: py
+  version: v1 
