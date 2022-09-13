@@ -2,16 +2,16 @@ apiVersion: v1
 entries:
   mongodb:
   - apiVersion: v2
-    created: "2022-09-13T09:50:05.315683+05:30"
+    created: "2022-09-13T09:55:55.057813+05:30"
     description: A Helm Chart for Mongo DB
-    digest: 4982b4657da8ed15e9a967353780347ba41d043e9da41b8c95236d0da708af08
+    digest: f11f2a3ad9acf9dde2901b018f844efb05a023c5e2a3b9b5ed58dc2dd977c445
     name: mongodb
     urls:
     - https://lerndevops.github.io/helm-charts/packages/mongodb-1.0.tgz
     version: "1.0"
   nginxdemo:
   - apiVersion: v2
-    created: "2022-09-13T09:50:05.316068+05:30"
+    created: "2022-09-13T09:55:55.058198+05:30"
     description: A Helm chart for nginx
     digest: e22366470f3e54443dcff476f94fd3007d0e316d60f6b49b913cd14ef45af14f
     name: nginxdemo
@@ -19,33 +19,33 @@ entries:
     - https://lerndevops.github.io/helm-charts/packages/nginxdemo-0.2.tgz
     version: "0.2"
   - apiVersion: v2
-    created: "2022-09-13T09:50:05.315882+05:30"
+    created: "2022-09-13T09:55:55.058005+05:30"
     description: A Helm chart for nginx
-    digest: 82b1118dc837b0014eefd09377682a8005758182e4e7d6beb4788cc2f1bcaa93
+    digest: 7ab1923212af382dd5fb60cb833b2f235eab89ccfeceaf67032e813e6180880a
     name: nginxdemo
     urls:
     - https://lerndevops.github.io/helm-charts/packages/nginxdemo-0.1.tgz
     version: "0.1"
-  sprintbootapp:
+  springbootapp:
   - apiVersion: v2
-    created: "2022-09-13T09:50:05.317394+05:30"
+    created: "2022-09-13T09:55:55.058455+05:30"
     dependencies:
     - name: mongodb
       repository: ""
       version: "1.0"
     description: A Helm chart for Spring application
-    digest: e3408e6374224e9e40ce38d50e45e7002414dd3129d8d9630dfe1cfe2f3dde29
-    name: sprintbootapp
+    digest: 97f62c131cdc1b8c0b0da6d4eba6aa559480208e0d69caced8a4ad88e668fb97
+    name: springbootapp
     urls:
-    - https://lerndevops.github.io/helm-charts/packages/sprintbootapp-1.0.tgz
+    - https://lerndevops.github.io/helm-charts/packages/springbootapp-1.0.tgz
     version: "1.0"
   testapp:
   - apiVersion: v2
-    created: "2022-09-13T09:50:05.317538+05:30"
+    created: "2022-09-13T09:55:55.058576+05:30"
     description: a simple Helm Chart to run test application
-    digest: 91ea98cc6cca2738857bafb4b4da1d4c0060b304f4236ce8135e9995bcc285c0
+    digest: 157646098029eeca7fac67abd100bf8805bfa46c0c7b5178511899a10a099aa9
     name: testapp
     urls:
     - https://lerndevops.github.io/helm-charts/packages/testapp-0.1.tgz
     version: "0.1"
-generated: "2022-09-13T09:50:05.315401+05:30"
+generated: "2022-09-13T09:55:55.057464+05:30"

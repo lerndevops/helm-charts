@@ -1,6 +1,6 @@
 apiVersion: v2
 version: "1.0"
-name: sprintbootapp
+name: springbootapp
 description: A Helm chart for Spring application
 dependencies:
   - name: mongodb
