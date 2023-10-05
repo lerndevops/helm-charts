@@ -15,6 +15,8 @@
 
 ### **By design, the Helm library must be usable as a standalone library.**
 
+![helm-test](../img/helm3-architecture.PNG)
+
 ![helm3-architecture](https://github.com/lerndevops/helm-charts/blob/main/img/helm3-architecture.PNG)
 
 
