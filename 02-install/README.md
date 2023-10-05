@@ -17,9 +17,6 @@
 
 ![helm-test](../img/helm3-architecture.PNG)
 
-![helm3-architecture](https://github.com/lerndevops/helm-charts/blob/main/img/helm3-architecture.PNG)
-
-
 ### Install Helm version3
 
 ```
@@ -56,7 +53,7 @@ v3.0.2+g19e47ee
 * Installing charts into Kubernetes, and then tracking the subsequent release
 * Upgrading and uninstalling charts by interacting with Kubernetes
 
-![helm2-architecture](https://github.com/lerndevops/helm-charts/blob/main/img/helm2-architecture.PNG)
+![helm2-architecture](../img/helm2-architecture.PNG)
 
 ### In a nutshell, the client is responsible for managing charts, and the server is responsible for managing releases.
 
