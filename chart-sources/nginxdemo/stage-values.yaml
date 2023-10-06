@@ -1,4 +1,4 @@
-nginximage: docker.io/library/nginx:1.23
+nginximage: docker.io/library/nginx:1.24
 
 replicas: 4
 
