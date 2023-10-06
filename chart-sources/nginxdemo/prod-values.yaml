@@ -1,4 +1,4 @@
-nginximage: nginx
+nginximage: docker.io/library/nginx:1.22
 
 replicas: 6
 
@@ -8,5 +8,6 @@ ports:
 
 deploymentlabels:
   app: nginx
+  env: prod
 
 servicetype: LoadBalancer

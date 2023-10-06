@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   helloapp:
   - apiVersion: v2
-    created: "2022-09-13T13:52:25.356427846Z"
+    created: "2023-10-06T04:40:23.890309123Z"
     dependencies:
     - name: mongodb
       repository: ""
@@ -14,7 +14,7 @@ entries:
     - https://lerndevops.github.io/helm-charts/packages/helloapp-1.2.tgz
     version: "1.2"
   - apiVersion: v2
-    created: "2022-09-13T13:52:25.355458475Z"
+    created: "2023-10-06T04:40:23.8889324Z"
     dependencies:
     - name: mongodb
       repository: ""
@@ -27,33 +27,16 @@ entries:
     version: "1.0"
   mongodb:
   - apiVersion: v2
-    created: "2022-09-13T13:52:25.356938924Z"
+    created: "2023-10-06T04:40:23.891359222Z"
     description: A Helm Chart for Mongo DB
     digest: 7fd4e6a67f5c03020688c8d78c3e65150e9cabeeee313554110d611ebc50caf8
     name: mongodb
     urls:
     - https://lerndevops.github.io/helm-charts/packages/mongodb-1.0.tgz
     version: "1.0"
-  nginxdemo:
-  - apiVersion: v2
-    created: "2022-09-13T13:52:25.358314556Z"
-    description: A Helm chart for nginx
-    digest: 822fc2a72b50c0c20492cdee3552cf99cdf3b75dafecef5f4079fa5546238e82
-    name: nginxdemo
-    urls:
-    - https://lerndevops.github.io/helm-charts/packages/nginxdemo-0.2.tgz
-    version: "0.2"
-  - apiVersion: v2
-    created: "2022-09-13T13:52:25.35773858Z"
-    description: A Helm chart for nginx
-    digest: fd6d50c911d2d96dfb87ae6d0967057744301adfb24fa1313f961f01672aec75
-    name: nginxdemo
-    urls:
-    - https://lerndevops.github.io/helm-charts/packages/nginxdemo-0.1.tgz
-    version: "0.1"
   springbootapp:
   - apiVersion: v2
-    created: "2022-09-13T13:52:25.359415053Z"
+    created: "2023-10-06T04:40:23.898251444Z"
     dependencies:
     - name: mongodb
       repository: ""
@@ -66,11 +49,11 @@ entries:
     version: "1.0"
   testapp:
   - apiVersion: v2
-    created: "2022-09-13T13:52:25.359867854Z"
+    created: "2023-10-06T04:40:23.899218037Z"
     description: a simple Helm Chart to run test application
     digest: 5e7e9177b4427b4fb76c8e8c5375b3b0d3ef8c37bbb262a4dee9cbccec2eb4dd
     name: testapp
     urls:
     - https://lerndevops.github.io/helm-charts/packages/testapp-0.1.tgz
     version: "0.1"
-generated: "2022-09-13T13:52:25.35408303Z"
+generated: "2023-10-06T04:40:23.880790038Z"

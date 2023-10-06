@@ -1,6 +1,6 @@
 nginximage: docker.io/library/nginx:1.22
 
-replicas: 2
+replicas: 4
 
 ports:
   containerport: 80
@@ -8,6 +8,6 @@ ports:
 
 deploymentlabels:
   app: nginx
-  env: dev
+  env: stage
 
 servicetype: NodePort
