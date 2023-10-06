@@ -1,9 +1,10 @@
 ## Helm 
 
-> 1. [Introduction](https://github.com/lerndevops/helm-charts/blob/main/01-introduction/README.md)
-> 2. [Architecture & Install](https://github.com/lerndevops/helm-charts/blob/main/02-install/README.md)
-> 3. [how-helm-works](https://github.com/lerndevops/helm-charts/blob/main/01-introduction/how-helm-works.md)
-> 4. [pros-and-cons-of-using-helm](https://github.com/lerndevops/helm-charts/blob/main/01-introduction/pros-and-cons-of-using-helm.md)
+> ### 1. [introduction](https://github.com/lerndevops/helm-charts/blob/main/01-introduction/README.md)
+> ### 2. [setup-kubernetes-cluster](https://github.com/lerndevops/helm-charts/blob/main/02-setup-kubernetes-cluster/README.md)
+> ### 3. [architecture & install helm](https://github.com/lerndevops/helm-charts/blob/main/02-install/README.md)
+> ### 4. [how-helm-works](https://github.com/lerndevops/helm-charts/blob/main/01-introduction/how-helm-works.md)
+> ### 5. [pros-and-cons-of-using-helm](https://github.com/lerndevops/helm-charts/blob/main/01-introduction/pros-and-cons-of-using-helm.md)
 
 
 
