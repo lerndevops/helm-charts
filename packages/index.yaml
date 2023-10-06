@@ -1,0 +1,96 @@
+apiVersion: v1
+entries:
+  helloapp:
+  - apiVersion: v2
+    created: "2023-10-06T04:49:36.100751825Z"
+    dependencies:
+    - name: mongodb
+      repository: ""
+      version: "1.0"
+    description: A Helm Chart for testap
+    digest: 2b3473b6c718c47e30f04a4d2a97407ce721411c04ec1b30aab668866ee7a916
+    name: helloapp
+    urls:
+    - https://lerndevops.github.io/helm-charts/helloapp-1.2.tgz
+    version: "1.2"
+  - apiVersion: v2
+    created: "2023-10-06T04:49:36.099979349Z"
+    dependencies:
+    - name: mongodb
+      repository: ""
+      version: "1.0"
+    description: A Helm Chart for testap
+    digest: 771e8970a7534dcd1e26a79c0cb1a01103d4e993bd4d3cbb55b4a0efe0edd5ad
+    name: helloapp
+    urls:
+    - https://lerndevops.github.io/helm-charts/helloapp-1.0.tgz
+    version: "1.0"
+  mongodb:
+  - apiVersion: v2
+    created: "2023-10-06T04:49:36.101198199Z"
+    description: A Helm Chart for Mongo DB
+    digest: b71420529d9cbdb6f2af5175d162d8980404189dd876e9aa262300f170ce2533
+    name: mongodb
+    urls:
+    - https://lerndevops.github.io/helm-charts/mongodb-1.0.tgz
+    version: "1.0"
+  nginxdemo:
+  - apiVersion: v2
+    appVersion: "1.3"
+    created: "2023-10-06T04:49:36.111647789Z"
+    description: A Helm chart for nginx
+    digest: 0fef88f09d281744f0275d698ef672b40f9c824c85848c89dd668305f077fe76
+    name: nginxdemo
+    urls:
+    - https://lerndevops.github.io/helm-charts/nginxdemo-0.4.tgz
+    version: "0.4"
+  - apiVersion: v2
+    appVersion: "1.2"
+    created: "2023-10-06T04:49:36.111055004Z"
+    description: A Helm chart for nginx
+    digest: 1a0aff3e0d29bb867c20d37ccb306cd4583acff2019e0af690c430a00ca97d84
+    name: nginxdemo
+    urls:
+    - https://lerndevops.github.io/helm-charts/nginxdemo-0.3.tgz
+    version: "0.3"
+  - apiVersion: v2
+    appVersion: "1.1"
+    created: "2023-10-06T04:49:36.110204203Z"
+    description: A Helm chart for nginx
+    digest: bbd4dce0779555273423d1b8a079181eb38175090c80a002fe956afad4305e0a
+    name: nginxdemo
+    urls:
+    - https://lerndevops.github.io/helm-charts/nginxdemo-0.2.tgz
+    version: "0.2"
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-10-06T04:49:36.101817513Z"
+    description: A Helm chart for nginx
+    digest: 7da1921bf80c12a89715cac3ecb9581aee28778873d274d4c309e3df53ef4a7d
+    name: nginxdemo
+    urls:
+    - https://lerndevops.github.io/helm-charts/nginxdemo-0.1.tgz
+    version: "0.1"
+  springbootapp:
+  - apiVersion: v2
+    created: "2023-10-06T04:49:36.112622204Z"
+    dependencies:
+    - name: mongodb
+      repository: ""
+      version: "1.0"
+    description: A Helm chart for Spring application
+    digest: 7784e56e7a18011475554367b3fea20dceec6c9a650847a800d20eea0d232328
+    name: springbootapp
+    urls:
+    - https://lerndevops.github.io/helm-charts/springbootapp-1.0.tgz
+    version: "1.0"
+  testapp:
+  - apiVersion: v2
+    created: "2023-10-06T04:49:36.113021618Z"
+    description: a simple Helm Chart to run test application
+    digest: 966294636196a5c06be2b03feaba96ef4135475c1a7d8d91ef1255a50395054b
+    name: testapp
+    urls:
+    - https://lerndevops.github.io/helm-charts/testapp-0.1.tgz
+    version: "0.1"
+generated: "2023-10-06T04:49:36.099002655Z"
