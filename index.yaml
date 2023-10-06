@@ -2,19 +2,19 @@ apiVersion: v1
 entries:
   helloapp:
   - apiVersion: v2
-    created: "2023-10-06T04:40:23.890309123Z"
+    created: "2023-10-06T04:42:29.151710433Z"
     dependencies:
     - name: mongodb
       repository: ""
       version: "1.0"
     description: A Helm Chart for testap
-    digest: e3358a556ccb80da59b93e2f3c152b77b30ed3ba30c46468d5cfe16e285249a9
+    digest: 63be4f8456f5918d9bc12da4185ae762d411d0f838231520a101e4ff7c505cfd
     name: helloapp
     urls:
     - https://lerndevops.github.io/helm-charts/packages/helloapp-1.2.tgz
     version: "1.2"
   - apiVersion: v2
-    created: "2023-10-06T04:40:23.8889324Z"
+    created: "2023-10-06T04:42:29.151333057Z"
     dependencies:
     - name: mongodb
       repository: ""
@@ -27,33 +27,43 @@ entries:
     version: "1.0"
   mongodb:
   - apiVersion: v2
-    created: "2023-10-06T04:40:23.891359222Z"
+    created: "2023-10-06T04:42:29.15197894Z"
     description: A Helm Chart for Mongo DB
-    digest: 7fd4e6a67f5c03020688c8d78c3e65150e9cabeeee313554110d611ebc50caf8
+    digest: 27829390b9b3f86f750429f6813bab4fb0b4220d268434e1a914403c6b372f38
     name: mongodb
     urls:
     - https://lerndevops.github.io/helm-charts/packages/mongodb-1.0.tgz
     version: "1.0"
+  nginxdemo:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-10-06T04:42:29.152261938Z"
+    description: A Helm chart for nginx
+    digest: 7da1921bf80c12a89715cac3ecb9581aee28778873d274d4c309e3df53ef4a7d
+    name: nginxdemo
+    urls:
+    - https://lerndevops.github.io/helm-charts/packages/nginxdemo-0.1.tgz
+    version: "0.1"
   springbootapp:
   - apiVersion: v2
-    created: "2023-10-06T04:40:23.898251444Z"
+    created: "2023-10-06T04:42:29.152806885Z"
     dependencies:
     - name: mongodb
       repository: ""
       version: "1.0"
     description: A Helm chart for Spring application
-    digest: 5ca9ac9638ba47d424fe654bcfaf374c287cdf77d8d6588186206189bb97bcff
+    digest: c2fc63ad14c2f84bee94428c0026f72588acc4a903147cdcdd43a142d900a575
     name: springbootapp
     urls:
     - https://lerndevops.github.io/helm-charts/packages/springbootapp-1.0.tgz
     version: "1.0"
   testapp:
   - apiVersion: v2
-    created: "2023-10-06T04:40:23.899218037Z"
+    created: "2023-10-06T04:42:29.152976716Z"
     description: a simple Helm Chart to run test application
-    digest: 5e7e9177b4427b4fb76c8e8c5375b3b0d3ef8c37bbb262a4dee9cbccec2eb4dd
+    digest: fda9c477cf03f8479e198233da830abaef892eb7e8159d25df360da848adccf3
     name: testapp
     urls:
     - https://lerndevops.github.io/helm-charts/packages/testapp-0.1.tgz
     version: "0.1"
-generated: "2023-10-06T04:40:23.880790038Z"
+generated: "2023-10-06T04:42:29.150593545Z"
