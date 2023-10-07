@@ -140,6 +140,51 @@
     helm history nginxdemo
 ```
 
+## Helm Upgrade with set option
+
+```t
+
+# Helm Upgrade
+    helm upgrade <RELEASE-NAME> <repo_name_in_your_local_desktop/chart_name> --set <OVERRIDE-VALUE-FROM-values.yaml>
+    helm upgrade nginxdemo lerndevops/nginxdemo --set "nginximage=nginx:latest"
+
+# List Helm Releases
+    helm list 
+
+# Additional List commands
+    helm list --superseded
+    helm list --deployed
+# List kubernetes resource 
+    kubectl get deployment -o wide 
+    kubectl get pods -o wide 
+    kubectl get services -o wide 
+```
+
+## Helm History 
+```t
+# helm history -- prints historical revisions for a given release.
+    helm history RELEASE_NAME
+    helm history nginxdemo
+```
+
+## Helm Status
+```t
+# Helm Status
+    helm status RELEASE_NAME
+    helm status nginxdemo
+
+# Helm Status - Show Description (display the description message of the named release)
+    helm status nginxdemo --show-desc    
+
+# Helm Status - Show Resources (display the resources of the named release)
+    helm status nginxdemo  --show-resources   
+
+# Helm Status - revision (display the status of the named release with revision)
+    helm status RELEASE_NAME --revision int
+    helm status nginxdemo --revision 2
+
+```
+
 ## Summary 
 #### what we learned 
 - additional flags for `helm search repo` command
