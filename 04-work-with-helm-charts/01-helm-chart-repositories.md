@@ -39,10 +39,4 @@
 # search a Helm Chart from a reqpository 
     helm search repo <repo name used while adding>/<chart name>
     helm search repo lerndevops/nginxdemo
-
-Note: above will show only the latest version of chart
-
-# search for all versions of a chart from a repository 
-    helm search repo <repo name used while adding>/<chart name> --versions 
-    helm search repo lerndevops/nginxdemo --versions
 ```
