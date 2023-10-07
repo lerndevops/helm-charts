@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sampleapp
+  name: {{ .Release.Name }}-sampleapp
 spec:
   type: NodePort
   selector:
