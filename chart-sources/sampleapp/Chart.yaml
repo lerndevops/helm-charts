@@ -1,0 +1,5 @@
+apiVersion: v2
+name: sampleapp
+version: "0.1"
+appVersion: "1.0"
+description: a simple Helm Chart to run sampleapp application

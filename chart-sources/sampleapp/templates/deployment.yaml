@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-app
+  name: sampleapp
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: sampleapp
@@ -19,4 +19,4 @@ spec:
         - containerPort: 8080
         resources:
           limits: 
-            cpu: 30m
+            cpu: 50m

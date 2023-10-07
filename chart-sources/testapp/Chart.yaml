@@ -1,4 +1,0 @@
-apiVersion: v2
-name: testapp
-version: "0.1"
-description: a simple Helm Chart to run test application
