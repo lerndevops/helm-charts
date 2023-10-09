@@ -111,6 +111,15 @@ Chart Name and Version: antiks-0.1.0
 - **Values Object:** Values passed into the template from the values.yaml file and from user-supplied files. By default, Values is empty.
 - Put the below in `NOTES.txt` and test it
 ```sh
+vi $HOME/antiks/values.yaml 
+replicaCount: 2
+image
+  repository: docker.io/lerndevops/samples
+  tag: pyapp-v1
+service
+  type: LoadBalancer
+```
+```sh
 vi $HOME/antiks/templates/NOTES.txt
 
 {{/* Values Object */}}
@@ -125,9 +134,9 @@ helm install antiks antiks/ --dry-run
 ```
 ```sh
 # Sample Output
-Replica Count: 1
-Image Repository: ghcr.io/stacksimplify/kubenginxhelm
-Service Type: NodePort
+Replica Count: 2
+Image Repository: docker.io/lerndevops/samples
+Service Type: LoadBalancer
 ```
 
 ## Capabilities Object 
