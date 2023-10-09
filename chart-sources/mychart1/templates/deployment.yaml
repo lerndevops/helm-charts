@@ -1,0 +1,17 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata: 
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-demo
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: app1
+  template: 
+    metadata:
+      labels: 
+        app: app1
+    spec:
+      containers: 
+        - name: app1
+          image: nginx
