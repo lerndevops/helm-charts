@@ -1,4 +1,34 @@
-## Helm Install with `Generate Name Flag`
+## Helm Install with `--dry-run`
+
+- **dry-run does not install the chart**
+- **populates the yaml defenitions on command line**
+
+```t
+# Helm install --dry-run
+    helm install test lerndevops/sampleapp --dry-run
+Note: observe the yaml printed on CLI
+
+# List Helm Release 
+    helm list 
+Note: no release will be found with name test
+```
+
+## Helm Install with `--debug`
+
+- **--debug shows the details information during the install process, also shows any error for failures on command line**
+- **populates the yaml defenitions on command line**
+
+```t
+# Helm install --dry-run
+    helm install test lerndevops/nginxdemo --dry-run
+Note: observe the yaml printed on CLI, with few additional information 
+
+# List Helm Release 
+    helm list 
+Note: a release will be found with name test
+```
+
+## Helm Install with `--generate-name Flag`
 
 - **`--generate-name` flag for `helm install` is very useful option**
 - **When we are implementing DevOps Pipelines, if we want to generate the names of our releases without throwing duplicate release errors we can use this setting.**
@@ -25,7 +55,7 @@ Observation:
     helm uninstall mongodb-1696675051
 ```
 
-## Helm Install with `Atomic` Flag
+## Helm Install with `--atomic` Flag
 
 > ### Install Helm Chart - with Release Name: test007
 
@@ -139,17 +169,4 @@ Note:
 
 # List Kubernetes Namespaces
     kubectl get ns
-```
-
-## Helm Install with `--dry-run`
-- dry-run does not install the chart 
-- populates the yaml defenitions on command line  
-```t
-# Helm install --dry-run
-    helm install test lerndevops/sampleapp --dry-run
-Note: observe the yaml printed on CLI
-
-# List Helm Release 
-    helm list 
-Note: no release will be found with name test
 ```

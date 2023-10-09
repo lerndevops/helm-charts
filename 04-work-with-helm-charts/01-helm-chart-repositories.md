@@ -40,3 +40,52 @@
     helm search repo <repo name used while adding>/<chart name>
     helm search repo lerndevops/nginxdemo
 ```
+
+## know about the remote chart 
+
+### helm show 
+```t 
+helm repo add lerndevops https://lerndevops.github.io/helm-charts/
+
+helm show all lerndevops/nginxdemo
+```
+
+### helm template
+```t
+helm repo add lerndevops https://lerndevops.github.io/helm-charts/
+
+helm template lerndevops/nginxdemo
+```
+
+## download a chart to local 
+
+### helm pull 
+
+```sh 
+helm repo add lerndevops https://lerndevops.github.io/helm-charts/
+```
+```sh
+cd $HOME
+
+#download a tar bundle of specified chart 
+helm pull lerndevops/sampleapp
+
+devops@kube-master:~$ ls -l $HOME
+-rw-r--r-- 1 devops devops 864 Oct  9 17:18 sampleapp-0.3.tgz
+```
+
+```sh
+# downlaod & untar a specified chart to current directory 
+helm pull lerndevops/sampleapp --untar
+
+devops@kube-master:~$ ls -l $HOME
+drwxr-xr-x  3 devops devops  4096 Oct  9 17:19 sampleapp
+```
+
+```sh
+# downalod & untar a specified chart to a specific directory 
+helm pull lerndevops/sampleapp --untar --untardir /tmp
+
+devops@kube-master:~$ ls -l /tmp
+drwxr-xr-x  3 devops devops 4096 Oct  9 17:25 sampleapp
+```

@@ -1,6 +1,9 @@
 ## Install a Helm Chart
 
 ```t
+# add a repo to local 
+    helm repo add lerndevops https://lerndevops.github.io/helm-charts/
+
 # Update Helm Repo
 
 # Make sure we get the latest list of charts from all repositories added to local
