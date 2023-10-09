@@ -21,7 +21,7 @@
 > **The charts can either be `stored locally` or `fetched from remote chart repositories`.**
 
 ## Work With Helm Charts
-
+1. [helm-chart-structure]()
 1. [helm-chart-repositories](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/01-helm-chart-repositories.md)
 2. [install-chart-from-repo](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/02-install-helm-charts-from-repo.md)
 3. [upgrade-&-rollback-helm-chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/03-upgrade-&-rollback-helm-chart.md)
