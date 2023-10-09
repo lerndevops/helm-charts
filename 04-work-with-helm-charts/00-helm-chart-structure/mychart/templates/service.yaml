@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1 
+metadata: 
+  name: myapp-svc
+spec: 
+  type: NodePort
+  selector: 
+    app: myapp 
+  ports: 
+    - name: http 
+      port: 80
+      targetPort: 3000 
+      nodePort: 30300
