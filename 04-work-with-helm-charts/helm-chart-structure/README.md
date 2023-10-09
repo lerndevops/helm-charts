@@ -15,7 +15,7 @@
 2. **as mentioned below only `Chart.yaml` & `templates directory` are mandatory. rest all are optional, we can use them accordingly**
 3. **each file & directory has thier own purpose & meaning. we will understand them as we create the charts**
 
-```
+```t
 └── testchart
     ├── .helmignore
     ├── Chart.yaml                  -- mandatory file 

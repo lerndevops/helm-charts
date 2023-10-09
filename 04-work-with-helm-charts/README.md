@@ -21,10 +21,10 @@
 > **The charts can either be `stored locally` or `fetched from remote chart repositories`.**
 
 ## Work With Helm Charts
-1. [helm-chart-structure]()
-1. [helm-chart-repositories](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/01-helm-chart-repositories.md)
-2. [install-chart-from-repo](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/02-install-helm-charts-from-repo.md)
-3. [upgrade-&-rollback-helm-chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/03-upgrade-&-rollback-helm-chart.md)
-4. [uninstall-helm-chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/04-uninstall-helm-charts.md)
-5. [install-with-flags](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/05-install-with-Flags.md)
+1. [helm-chart-structure](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/helm-chart-structure/README.md)
+2. [helm-chart-repositories](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/01-helm-chart-repositories.md)
+3. [install-chart-from-repo](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/02-install-helm-charts-from-repo.md)
+4. [upgrade-&-rollback-helm-chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/03-upgrade-&-rollback-helm-chart.md)
+5. [uninstall-helm-chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/04-uninstall-helm-charts.md)
+6. [install-with-flags](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/05-install-with-Flags.md)
 
