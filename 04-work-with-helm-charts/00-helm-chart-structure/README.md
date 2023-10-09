@@ -35,3 +35,5 @@
     └── values.yaml
 ```
 
+## [know your chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/00-helm-chart-structure/know-your-chart.md) 
+
