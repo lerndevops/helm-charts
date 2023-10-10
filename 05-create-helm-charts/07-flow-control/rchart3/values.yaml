@@ -1,0 +1,17 @@
+rlabels:
+  app: rapp 
+  type: web
+  proj: "007"
+replicas: 2
+image: 
+  repo: docker.io/lerndevops/samples
+  tag: pyapp-v2
+conf:
+  app: 
+    name: fb
+    server: weblogic
+    lang: java
+  db: 
+    name: fbdevdb
+    server: "10.3.3.5"
+    port: "1521"

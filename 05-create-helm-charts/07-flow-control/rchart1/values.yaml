@@ -1,0 +1,12 @@
+rlabels:
+  app: wapp 
+  type: web
+  proj: "007"
+replicas: 2
+image: 
+  repo: docker.io/lerndevops/samples
+  tag: pyapp-v2
+namespaces:
+  - name: rapp1
+  - name: rapp2
+  - name: rapp3
