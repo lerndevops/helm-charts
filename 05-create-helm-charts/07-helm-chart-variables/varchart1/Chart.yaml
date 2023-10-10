@@ -1,0 +1,8 @@
+# place the below content inside the Chart.yaml
+apiVersion: v2
+type: application 
+name: varchart1
+version: "0.1.0"  # recomended to follow version as "MAJOR-Version.MINOR-Version.PATCH-Version" always 
+description: "A Helm chart to deploy all required kubernetes resources"
+appVersion: "1.0.0"  # your application version / release version 
+# save the file with the above data
