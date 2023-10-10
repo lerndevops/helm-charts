@@ -1,0 +1,26 @@
+{{/* Common Labels */}}
+{{- define "nt.labels"}}
+    app: sapp
+    cname: {{ .Chart.Name }}
+{{- end }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-app
+  labels:
+  {{- template "nt.labels" . }}
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+    {{- include "nt.labels" . | indent 2 }}
+  template:
+    metadata:
+      labels:
+      {{- include "nt.labels" . | indent 4 }} 
+    spec:
+      containers:
+      - name: sampleapp
+        image: lerndevops/samples:java-app
+        ports:
+        - containerPort: 8080
