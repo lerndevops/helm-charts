@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}
+  labels:
+    app: nginx
+spec:
+{{- if or (eq .Values.iecapp.env "prod") (eq .Values.iecapp.env "uat") }}
+  replicas: 6
+{{- else if eq .Values.iecapp.env "qa" }}  
+  replicas: 2
+{{- else }}  
+  replicas: 1  
+{{- end }}
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: {{ .Values.image.repo }}:{{ .Values.image.tag }}
+        ports:
+        - containerPort: 3000

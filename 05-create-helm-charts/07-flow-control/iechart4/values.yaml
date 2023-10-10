@@ -1,0 +1,6 @@
+iecapp: 
+  env: prod
+  enabled: ""
+image: 
+  repo: docker.io/lerndevops/samples
+  tag: pyapp-v2
