@@ -28,7 +28,7 @@ cat templates/deployment.yaml  # observe if else condition used for replicas
 # dry run the chart and observe the output rendered properly 
 
 cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart1
-helm install iec1-rel . --dry-run 
+helm install iec1 . --dry-run 
 ```
 ```yaml
 # output as below 
@@ -64,3 +64,59 @@ spec:
         - containerPort: 8080
 ```
 ---
+## if-else AND
+#### examin the iechart2 from [github repo](iechart2/) 
+
+```sh
+# get the chart to local 
+cd $HOME ; git clone https://github.com/lerndevops/helm-charts
+cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart2
+```
+```sh
+cat values.yaml  # observe the values 
+cat templates/deployment.yaml  # observe if else condition used for replicas 
+```
+```sh
+# dry run the chart and observe the output rendered properly 
+
+cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart2
+helm install iec2 . --dry-run 
+```
+---
+## if-else OR
+#### examin the iechart3 from [github repo](iechart3/) 
+
+```sh
+# get the chart to local 
+cd $HOME ; git clone https://github.com/lerndevops/helm-charts
+cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart3
+```
+```sh
+cat values.yaml  # observe the values 
+cat templates/deployment.yaml  # observe if else condition used for replicas 
+```
+```sh
+# dry run the chart and observe the output rendered properly 
+
+cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart3
+helm install iec3 . --dry-run 
+```
+---
+## if-else NOT
+#### examin the iechart4 from [github repo](iechart4/) 
+
+```sh
+# get the chart to local 
+cd $HOME ; git clone https://github.com/lerndevops/helm-charts
+cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart4
+```
+```sh
+cat values.yaml  # observe the values 
+cat templates/deployment.yaml  # observe if else condition used for replicas 
+```
+```sh
+# dry run the chart and observe the output rendered properly 
+
+cd $HOME/helm-charts/05-create-helm-charts/07-flow-control/iechart4
+helm install iec4 . --dry-run 
+```
