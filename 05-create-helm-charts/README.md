@@ -8,9 +8,9 @@
    * ***we can also templatize these yaml files to pass values dynamically by using `helm template language`***
 
 ---
-1. [understand-helm-chart-structure](../05-create-helm-charts/00-helm-chart-structure.md)
-2. [create-helm-chart-manual](../05-create-helm-charts/01-create-helm-chart-manual.md)
-3. [helm-create](../05-create-helm-charts/02-helm-create.md)
-4. [helm-chart-templates](../05-create-helm-charts/03-helm-chart-templates.md)
-5. [understand-NOTES.txt](../05-create-helm-charts/04-understand-NOTES.txt.md)
-6. [helm-chart-built-in-objects](../05-create-helm-charts/05-built-in-objects.md)
+01. [understand-helm-chart-structure](00-helm-chart-structure.md)
+02. [create-helm-chart-manual](01-create-helm-chart-manual.md)
+03. [helm-create](02-helm-create.md)
+04. [helm-chart-templates](03-helm-chart-templates.md)
+05. [understand-NOTES.txt](04-understand-NOTES.txt.md)
+06. [helm-chart-built-in-objects](05-built-in-objects.md)
