@@ -240,5 +240,4 @@ File Glob: map[conf/app.props:[97 112 112 78 97 109 101 58 32 97 110 116 105 107
 
 ## Additional Reference
 - [Helm Built-In Objects](https://helm.sh/docs/chart_template_guide/builtin_objects/)
-- [Helm Chart.yaml Fields](https://helm.sh/docs/chart_template_guide/builtin_objects/)
-
+- [Helm Chart.yaml Fields](https://helm.sh/docs/topics/charts/#the-chartyaml-file)
