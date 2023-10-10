@@ -1,17 +1,10 @@
 ## Understand Helm Chart Folder Structure
 
-### create a helm chart 
-
-```t
-# Helm Create Chart
-    helm create <CHART-NAME>
-    helm create testchart
-```
+### `Note`: A helm chart follows pre defined directory structure with some pre defined file & directory names
 
 ### Helm Chart Structure can be found as below 
 
-1. **we can observe the `helm create` command creates chart directory structure with various files & directories as below**
-1. **not every file or directory inside the test chart directory are mandatory**
+1. **not every file or directory inside a chart directory are mandatory**
 2. **as mentioned below only `Chart.yaml` & `templates directory` are mandatory. rest all are optional, we can use them accordingly**
 3. **each file & directory has thier own purpose & meaning. we will understand them as we create the charts**
 
@@ -45,10 +38,4 @@
 #### `templates/deployment.yaml`: **A basic manifest for creating a Kubernetes deployment**
 #### `templates/service.yaml`: **A basic manifest for creating a service endpoint for your deployment**
 #### `templates/_helpers.tpl`: **A place to put template helpers that you can re-use throughout the chart**
-
-
-
-
-
-## [know your chart](https://github.com/lerndevops/helm-charts/blob/main/04-work-with-helm-charts/00-helm-chart-structure/know-your-chart.md) 
 

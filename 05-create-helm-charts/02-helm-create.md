@@ -1,3 +1,28 @@
+## let's create a simple helm chart with `helm create`
+```sh
+helm create $HOME/mychart2
+```
+```sh 
+apt-get install -y tree 
+tree $HOME/mychart2/
+```
+```sh
+# observe the files & directories created by helm create as below 
+mychart2/
+├── Chart.yaml
+├── charts
+├── templates
+│   ├── NOTES.txt
+│   ├── _helpers.tpl
+│   ├── deployment.yaml
+│   ├── hpa.yaml
+│   ├── ingress.yaml
+│   ├── service.yaml
+│   ├── serviceaccount.yaml
+│   └── tests
+│       └── test-connection.yaml
+└── values.yaml
+```
 ## helm show / inspect 
 - **helps to read/know the chart information before installing**
 ```t
@@ -12,38 +37,48 @@ Available sub Commands:
   values      show the chart's values
 ```
 
-### local chart
-```t
-helm create mychart1
-```
-```
-helm show all mychart1 
-helm show values mychart1
+```sh
+helm show chart $HOME/mychart2
 ```
 ```yaml
-helm show chart mychart1
-
-devops@kube-master:~$ helm show chart mychart1
+## output can be observed as below 
 apiVersion: v2
 appVersion: 1.16.0
 description: A Helm chart for Kubernetes
-name: mychart1
+name: mychart2
 type: application
 version: 0.1.0
 ```
+```sh
+helm show values $HOME/mychart2
+```
+```yaml 
+## output can be observed as below 
 
+# Default values for mychart2.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+imagePullSecrets: []
+< truncated further values to fit in here >
+```
 ## helm template 
 - **helps to print the template definition onto local terminal before install**
 
-### local chart
+```sh
+helm template $HOME/mychart2/
+```
+```yaml
+## output can be observed as below
 
-```yaml 
-
-#helm template <chart-name>
-helm create mychart1
-helm template mychart1/
-
-devops@kube-master:~$ helm template mychart1/
 ---
 # Source: test/templates/serviceaccount.yaml
 apiVersion: v1
@@ -125,12 +160,12 @@ spec:
 - **note that only the charts in local can be linted/validated**
 
 ```sh 
-#helm lint chartname/
-helm create mychart1
+helm lint $HOME/mychart2/
+```
 
-helm lint mychart1/
+```sh
+## output can be observed as below 
 
-devops@kube-master:~$ helm lint mychart1/
 ==> Linting test/
 [INFO] Chart.yaml: icon is recommended
 

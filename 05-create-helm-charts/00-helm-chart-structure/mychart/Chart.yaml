@@ -1,5 +1,0 @@
-apiVersion: v2 
-version: 0.1  # Chart Version 
-name: mychart # Chart Name 
-description: Helm Chart for testapp deployment  # Chart description 
-appVersion: 1.0 # your application deployment/release version 
