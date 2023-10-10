@@ -1,0 +1,5 @@
+iecapp: 
+  env: qa
+image: 
+  repo: docker.io/lerndevops/samples
+  tag: pyapp-v2

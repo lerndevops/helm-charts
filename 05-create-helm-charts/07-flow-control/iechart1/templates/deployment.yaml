@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-app
+spec:
+{{- if eq .Values.iecapp.env "prod" }}
+  replicas: 4 
+{{- else if eq .Values.iecapp.env "qa" }}  
+  replicas: 2
+{{- else }}  
+  replicas: 1
+{{- end }}  
+  selector:
+    matchLabels:
+      app: iec
+  template:
+    metadata:
+      labels:
+        app: iec
+    spec:
+      containers:
+      - name: sampleapp
+        image: {{ .Values.image.repo }}:{{ .Values.image.tag }}
+        ports:
+        - containerPort: 8080
