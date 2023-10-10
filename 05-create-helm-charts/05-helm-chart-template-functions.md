@@ -56,7 +56,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   # Template Action with Action Elements
-  name: {{ something }}-{{ .Chart.Name }}
+  name: {{ test }}-{{ .Chart.Name }}
 
 # Helm Template Command
 helm template test app1/
@@ -65,7 +65,7 @@ Observation:
 1. Should fail with error
 2. In short, inside Action Element we should have 
 
-Error: parse error at (helmbasics/templates/deployment.yaml:10): function "something" not defined
+Error: parse error at (app1/templates/deployment.yaml:10): function "test" not defined
 ```
 
 ## Template Function: quote
