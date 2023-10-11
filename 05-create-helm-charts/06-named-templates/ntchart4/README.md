@@ -1,10 +1,6 @@
-# MyChart4 Helm Chart
+# ntchart4 Helm Chart
 
-## Step-01: Introduction
-- This chart will help us in learning Helm in a detailed manner
-- This chart will have NodePort service configured with Dynamic Port
-
-## Step-02: Installing the Chart
+## Installing the Chart
 - To install the chart with the release name `myapp` run:
 ```t
 # Add Helm Repository
@@ -17,7 +13,7 @@ $ helm repo update
 $ helm install myapp lerndevops/ntchart4
 ```
 
-## Step-03: Verify if Helm Installed successfully
+## Verify if Helm Installed successfully
 ```t
 # Helm Status myapp 
 $ helm status myapp --show-resources
@@ -30,7 +26,7 @@ kubectl get svc
 http://localhost:<Get-from-svc-output>
 ```
 
-## Step-04: Uninstall the Chart
+## Uninstall the Chart
 ```t
 # Uninstall Helm Chart
 $ helm uninstall myapp
