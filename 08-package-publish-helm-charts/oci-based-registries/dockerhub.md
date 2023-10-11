@@ -80,21 +80,21 @@ helm pull oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2
 ## Helm Template and Show Commands
 ```sh
 # Helm Template Command
-helm template <my-release> oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1.0
-helm template mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1.0
-helm template mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2.0
+helm template <my-release> oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1
+helm template mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1
+helm template mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2
 ```
 ```sh
 # Helm Show Command
-helm show all oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1.0
-helm show all oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2.0
+helm show all oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1
+helm show all oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2
 ```
 
 ## Helm Install and Upgrade from OCI Registry
 ```sh
 # Helm Install
-helm install <my-release> oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1.0
-helm install mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1.0
+helm install <my-release> oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1
+helm install mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.1
 ```
 ```sh
 # Helm Status
@@ -102,5 +102,5 @@ helm status mynginx --show-resources
 ```
 ```sh
 # Helm Upgrade
-helm upgrade mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2.0
+helm upgrade mynginx oci://registry-1.docker.io/lerndevops/nginxdemo --version 0.2
 ```
