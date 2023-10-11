@@ -89,3 +89,19 @@ cat templates/_helpers.tpl
 cd $HOME/helm-charts/05-create-helm-charts/06-named-templates/ntchart3
 helm install ntchart3-rel . --dry-run 
 ```
+---
+#### examin the ntchart4 from [github repo](ntchart4)
+
+```sh
+# get the chart to local
+cd $HOME ; git clone https://github.com/lerndevops/helm-charts
+cd $HOME/helm-charts/05-create-helm-charts/06-named-templates/ntchart4
+cat templates/_helpers.tpl
+cat templates/_labels.tpl
+```
+```sh
+# dry run the chart and observe the output rendered properly
+
+cd $HOME/helm-charts/05-create-helm-charts/06-named-templates/ntchart4
+helm install ntchart4-rel . --dry-run
+```

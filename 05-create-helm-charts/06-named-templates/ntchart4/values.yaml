@@ -1,0 +1,16 @@
+# Declare variables to be passed into your templates.
+
+replicaCount: 2
+image:
+  repository: docker.io/lerndevops/samples
+  pullPolicy: IfNotPresent
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: ""
+
+nameOverride: ""
+fullnameOverride: ""
+podAnnotations: {}
+
+service:
+  type: NodePort
+  port: 80
