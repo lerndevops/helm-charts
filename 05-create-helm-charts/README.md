@@ -8,9 +8,12 @@
    * ***we can also templatize these yaml files to pass values dynamically by using `helm template language`***
 
 ---
-01. [understand-helm-chart-structure](00-helm-chart-structure/README.md)
-02. [create-helm-chart-manual](01-create-helm-chart-manual/README.md)
-03. [helm-create](02-helm-create/README.md)
-04. [understand-NOTES.txt](03-understand-NOTES.txt/README.md)
-05. [helm-chart-built-in-objects](04-built-in-objects/README.md)
-06. [helm-chart-templates-actions](05-helm-chart-template-functions/README.md)
+00. [understand-helm-chart-structure](00-helm-chart-structure/README.md)
+01. [create-helm-chart-manual](01-create-helm-chart-manual/README.md)
+02. [helm-create](02-helm-create/README.md)
+03. [understand-NOTES.txt](03-understand-NOTES.txt/README.md)
+04. [helm-chart-built-in-objects](04-built-in-objects/README.md)
+05. [helm-chart-templates-functions](05-helm-chart-template-functions/README.md)
+06. [flow-control](07-flow-control)
+07. [named-templates](06-named-templates)
+08. [vaiables](08-helm-chart-variables)

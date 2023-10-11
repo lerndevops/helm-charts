@@ -3,7 +3,7 @@
 
 ## define a named template & reuse 
 
-#### examin the ntchart1 from [github repo](https://github.com/lerndevops/helm-charts/tree/main/05-create-helm-charts/06-named-templates/ntchart1) 
+#### examin the ntchart1 from [github repo](ntchart1) 
 
 ```sh
 # get the chart to local 
@@ -33,7 +33,7 @@ helm install ntchart1-rel . --dry-run
 
 ## use builtin objects in template definitions 
 
-#### examin the ntchart2 from [github repo](https://github.com/lerndevops/helm-charts/tree/main/05-create-helm-charts/06-named-templates/ntchart2)
+#### examin the ntchart2 from [github repo](ntchart2)
 
 ```sh
 # get the chart to local 
@@ -68,7 +68,7 @@ helm install ntchart2-rel . --dry-run
 * **These files are not rendered to Kubernetes object definitions, but are available everywhere within other chart templates for use.**
 * **These files are used to store partials and helpers.**
 
-#### examin the ntchart3 from [github repo](https://github.com/lerndevops/helm-charts/tree/main/05-create-helm-charts/06-named-templates/ntchart3)
+#### examin the ntchart3 from [github repo](ntchart3)
 
 ```sh
 # get the chart to local 
