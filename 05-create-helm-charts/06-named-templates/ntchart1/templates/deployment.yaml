@@ -1,5 +1,5 @@
 {{/* Common Labels */}}
-{{- define "nt.labels"}}
+{{- define "mytemplate"}}
     app: sapp
 {{- end }}
 apiVersion: apps/v1
@@ -7,19 +7,19 @@ kind: Deployment
 metadata:
   name: {{ .Release.Name }}-app
   labels:
-  {{- template "nt.labels" }}
+  {{- template "mytemplate" }}
 spec:
   replicas: 2
   selector:
     matchLabels:
-    {{- include "nt.labels" . | indent 2 }}
+    {{- include "mytemplate" . | indent 2 }}
   template:
     metadata:
       labels:
-      {{- include "nt.labels" . | indent 4 }} 
+      {{- include "mytemplate" . | indent 4 }} 
     spec:
       containers:
       - name: sampleapp
-        image: lerndevops/samples:java-app
+        image: lerndevops/samples:pyapp-v1
         ports:
-        - containerPort: 8080
+        - containerPort: 3000

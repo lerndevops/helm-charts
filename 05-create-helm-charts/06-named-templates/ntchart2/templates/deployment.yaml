@@ -1,5 +1,5 @@
 {{/* Common Labels */}}
-{{- define "nt.labels"}}
+{{- define "nt1.labels"}}
     app: sapp
     cname: {{ .Chart.Name }}
 {{- end }}
@@ -8,19 +8,19 @@ kind: Deployment
 metadata:
   name: {{ .Release.Name }}-app
   labels:
-  {{- template "nt.labels" . }}
+  {{- template "nt1.labels" . }}
 spec:
   replicas: 2
   selector:
     matchLabels:
-    {{- include "nt.labels" . | indent 2 }}
+    {{- include "nt1.labels" . | indent 2 }}
   template:
     metadata:
       labels:
-      {{- include "nt.labels" . | indent 4 }} 
+      {{- include "nt1.labels" . | indent 4 }} 
     spec:
       containers:
       - name: sampleapp
-        image: lerndevops/samples:java-app
+        image: lerndevops/samples:unapp
         ports:
-        - containerPort: 8080
+        - containerPort: 80

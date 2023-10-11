@@ -1,5 +1,5 @@
 {{/* Common Labels */}}
-{{- define "nt.labels"}}
+{{- define "mytemplate.labels"}}
     app: sapp
     cname: {{ .Chart.Name }}
 {{- end }}
