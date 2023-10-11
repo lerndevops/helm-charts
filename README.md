@@ -1,6 +1,6 @@
 ## Helm 
 
-> ### 1. [introduction](./01-introduction/README.md0)
+> ### 1. [introduction](./01-introduction/README.md)
 > ### 2. [setup-kubernetes-cluster](./02-setup-kubernetes-cluster/README.md)
 > ### 3. [architecture & install helm](./03-install-helm/README.md)
 > ### 4. [how-helm-works](./01-introduction/how-helm-works.md)
