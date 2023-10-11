@@ -16,4 +16,4 @@
 05. [helm-chart-templates-functions](05-helm-chart-template-functions/README.md)
 06. [flow-control](07-flow-control)
 07. [named-templates](06-named-templates)
-08. [vaiables](08-helm-chart-variables)
+08. [variables](08-helm-chart-variables)
