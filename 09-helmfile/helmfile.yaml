@@ -1,0 +1,16 @@
+repositories:
+  - name: lerndevops
+    url: https://lerndevops.github.io/helm-charts/
+  - name: bitnami
+    url: https://charts.bitnami.com/bitnami
+  - name: jenkins
+    url: https://charts.jenkins.io
+
+releases:
+  - name: nginx-rel
+    namespace: nginx
+    createNamespace: true
+    atomic: true
+    #vaulues:
+    chart: lerndevops/nginxdemo
+    version: 0.3
